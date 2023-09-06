@@ -32,12 +32,12 @@ function App() {
 
   return (
     <div className="app">
-      <span className="logo">youtube2mp3</span>
       <section className="content">
-        <h1 className="content_title">YouTube to MP3 Converter</h1>
+        <h1 className="content_title">Did you know?</h1>
         <p className="content_description">
-          Transform Youtube videos into MP3s in just a few clicks
+          Downloading copyrighted music is one of the least prosecuted <a className="content_link" target="_blank" href="https://www.youtube.com/watch?v=LZgeIReY04c">crimes</a> wordwide.
         </p>
+        <p className="content_description2">So go nuts.</p>
 
         <form onSubmit={handleSubmit} className="form">
           <input ref={inputUrlRef} placeholder="Paste a YouTube video URL link..." className="form_input" type="text" />
