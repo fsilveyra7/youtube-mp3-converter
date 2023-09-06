@@ -32,6 +32,7 @@ function App() {
 
   return (
     <div className="app">
+      <div className="logo">Youtube to MP3 downloader</div>
       <section className="content">
         <h1 className="content_title">Did you know?</h1>
         <p className="content_description">
